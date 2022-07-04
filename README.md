@@ -19,7 +19,7 @@ npm uninstall @types/tar
 ```
 npm install @theaussiepom/tar
 ```
-3. Add `node_modules/@theaussiepom/tar` typeroot to `tsconfig.json`. You must also reference `node_modules/@types` as it will no longer be included by default (see [TypeScript typeRoots](https://www.typescriptlang.org/tsconfig#typeRoots) for further information).
+3. Update `tsconfig.json` to add `node_modules/@theaussiepom` to the typeToots. `node_modules/@types`  must also be referenced in the typeRoots as it will no longer be included by default (see [TypeScript typeRoots](https://www.typescriptlang.org/tsconfig#typeRoots) for further information).
 ```
 "typeRoots": [
   "../node_modules/@theaussiepom",
