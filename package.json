@@ -1,0 +1,25 @@
+{
+  "name": "@theaussiepom/tar",
+  "version": "0.0.1",
+  "description": "Bastardised TypeScript definitions for tar (addresses minipass conflicts)",
+  "homepage": "https://github.com/theaussiepom/tar",
+  "license": "MIT",
+  "contributors": [
+    "Ben Dennis (https://github.com/theaussiepom)"
+  ],
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theaussiepom/tar.git"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "typeScriptVersion": "3.8",
+  "keywords": [
+    "tar",
+    "minipass",
+    "@types/tar"
+  ]
+}
